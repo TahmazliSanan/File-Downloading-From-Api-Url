@@ -29,7 +29,7 @@ namespace Task3
 
             // Determine the file name and path
             var fileName = Path.GetFileName(imageUrl);
-            const string downloadsPath = @"C:\Users\user\Downloads";
+            const string downloadsPath = "YOUR_FOLDER_PATH";
             var filePath = Path.Combine(downloadsPath, fileName);
 
             // Write bytes to file
